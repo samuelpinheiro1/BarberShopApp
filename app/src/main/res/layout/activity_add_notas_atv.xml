@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddNotasAtv"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="139dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="Corte do dia"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="218dp"
+        android:layout_height="92dp"
+        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="83dp"
+        android:src="@drawable/baseline_done_24"
+        android:text="Agendar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/addNoteHeading"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/blue_border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Informe seu nome"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o horário que deseja"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blue"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/blue_border"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
